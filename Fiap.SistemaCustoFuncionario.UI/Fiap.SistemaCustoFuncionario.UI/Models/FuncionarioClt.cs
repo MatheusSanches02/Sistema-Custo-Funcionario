@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fiap.SistemaCustoFuncionario.UI.Models
 {
-    class FuncionarioClt : Funcionario
+    internal class FuncionarioClt : Funcionario
     {
         public decimal Salario { get; set; }
         public bool CargoConfiança { get; set; }

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Fiap.SistemaCustoFuncionario.UI.Models
 {
-    public interface IFuncionario
+    public interface IFuncionarioPj
     {
-        public decimal CustoMensal();
+        public decimal CustoMensalHorasExtras(int horas);
     }
 }
