@@ -9,5 +9,6 @@ namespace Fiap.SistemaCustoFuncionario.UI.Models
     public interface IFuncionario
     {
         public decimal CustoMensal();
+        decimal CustoMensal(decimal ferias, decimal decimoTerceiro, decimal fgts, decimal provisaoMulta, decimal previdenciario);
     }
 }

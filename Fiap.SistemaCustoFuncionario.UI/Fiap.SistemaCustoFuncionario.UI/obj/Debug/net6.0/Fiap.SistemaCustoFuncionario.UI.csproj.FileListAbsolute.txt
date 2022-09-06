@@ -1,0 +1,15 @@
+C:\Users\logonrmlocal\Downloads\Sistema-Custo-Funcionario\Fiap.SistemaCustoFuncionario.UI\Fiap.SistemaCustoFuncionario.UI\obj\Debug\net6.0\Fiap.SistemaCustoFuncionario.UI.csproj.AssemblyReference.cache
+C:\Users\logonrmlocal\Downloads\Sistema-Custo-Funcionario\Fiap.SistemaCustoFuncionario.UI\Fiap.SistemaCustoFuncionario.UI\obj\Debug\net6.0\Fiap.SistemaCustoFuncionario.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\logonrmlocal\Downloads\Sistema-Custo-Funcionario\Fiap.SistemaCustoFuncionario.UI\Fiap.SistemaCustoFuncionario.UI\obj\Debug\net6.0\Fiap.SistemaCustoFuncionario.UI.AssemblyInfoInputs.cache
+C:\Users\logonrmlocal\Downloads\Sistema-Custo-Funcionario\Fiap.SistemaCustoFuncionario.UI\Fiap.SistemaCustoFuncionario.UI\obj\Debug\net6.0\Fiap.SistemaCustoFuncionario.UI.AssemblyInfo.cs
+C:\Users\logonrmlocal\Downloads\Sistema-Custo-Funcionario\Fiap.SistemaCustoFuncionario.UI\Fiap.SistemaCustoFuncionario.UI\obj\Debug\net6.0\Fiap.SistemaCustoFuncionario.UI.csproj.CoreCompileInputs.cache
+C:\Users\logonrmlocal\Downloads\Sistema-Custo-Funcionario\Fiap.SistemaCustoFuncionario.UI\Fiap.SistemaCustoFuncionario.UI\bin\Debug\net6.0\Fiap.SistemaCustoFuncionario.UI.exe
+C:\Users\logonrmlocal\Downloads\Sistema-Custo-Funcionario\Fiap.SistemaCustoFuncionario.UI\Fiap.SistemaCustoFuncionario.UI\bin\Debug\net6.0\Fiap.SistemaCustoFuncionario.UI.deps.json
+C:\Users\logonrmlocal\Downloads\Sistema-Custo-Funcionario\Fiap.SistemaCustoFuncionario.UI\Fiap.SistemaCustoFuncionario.UI\bin\Debug\net6.0\Fiap.SistemaCustoFuncionario.UI.runtimeconfig.json
+C:\Users\logonrmlocal\Downloads\Sistema-Custo-Funcionario\Fiap.SistemaCustoFuncionario.UI\Fiap.SistemaCustoFuncionario.UI\bin\Debug\net6.0\Fiap.SistemaCustoFuncionario.UI.dll
+C:\Users\logonrmlocal\Downloads\Sistema-Custo-Funcionario\Fiap.SistemaCustoFuncionario.UI\Fiap.SistemaCustoFuncionario.UI\bin\Debug\net6.0\Fiap.SistemaCustoFuncionario.UI.pdb
+C:\Users\logonrmlocal\Downloads\Sistema-Custo-Funcionario\Fiap.SistemaCustoFuncionario.UI\Fiap.SistemaCustoFuncionario.UI\obj\Debug\net6.0\Fiap.SistemaCustoFuncionario.UI.dll
+C:\Users\logonrmlocal\Downloads\Sistema-Custo-Funcionario\Fiap.SistemaCustoFuncionario.UI\Fiap.SistemaCustoFuncionario.UI\obj\Debug\net6.0\refint\Fiap.SistemaCustoFuncionario.UI.dll
+C:\Users\logonrmlocal\Downloads\Sistema-Custo-Funcionario\Fiap.SistemaCustoFuncionario.UI\Fiap.SistemaCustoFuncionario.UI\obj\Debug\net6.0\Fiap.SistemaCustoFuncionario.UI.pdb
+C:\Users\logonrmlocal\Downloads\Sistema-Custo-Funcionario\Fiap.SistemaCustoFuncionario.UI\Fiap.SistemaCustoFuncionario.UI\obj\Debug\net6.0\Fiap.SistemaCustoFuncionario.UI.genruntimeconfig.cache
+C:\Users\logonrmlocal\Downloads\Sistema-Custo-Funcionario\Fiap.SistemaCustoFuncionario.UI\Fiap.SistemaCustoFuncionario.UI\obj\Debug\net6.0\ref\Fiap.SistemaCustoFuncionario.UI.dll

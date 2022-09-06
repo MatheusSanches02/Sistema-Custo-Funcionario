@@ -26,6 +26,11 @@ namespace Fiap.SistemaCustoFuncionario.UI.Models
         }
 
         public abstract decimal CustoMensal();
+
+        public decimal CustoMensal(decimal ferias, decimal decimoTerceiro, decimal fgts, decimal provisaoMulta, decimal previdenciario)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     public enum TipoFuncionario
