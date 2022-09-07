@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -44,6 +45,16 @@ namespace Fiap.SistemaCustoFuncionario.UI.Models
         {
             int horasExtras = horas + QtdeHoras;
             return ValorHora * horasExtras;
+        }
+
+        public override decimal AumentoSalario(decimal aumento)
+        {
+            return ValorHora + aumento;
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + $"Valor da Hora: {ValorHora}, Quantidade de horas: {QtdeHoras}, CNPJ: {NrCnpj}";
         }
     }
 }

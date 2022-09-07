@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,7 +34,18 @@ namespace Fiap.SistemaCustoFuncionario.UI.Models
             decimal percFgts = (decimal)(fgts * (8 / 100));
             decimal fgtsMulta = (decimal)((fgts / provisaoMulta) * (4 / 100));
             decimal percPrevidenciario = (decimal)(previdenciario * (7.93 / 100));
-            return Salario + percFerias + percDecimoTerceiro + percFgts + percFgts + percFgts;
+            return Salario + percFerias + percDecimoTerceiro + percFgts + fgtsMulta + percPrevidenciario;
+        }
+
+        public override decimal AumentoSalario(decimal percent)
+        {
+            decimal total = Salario * (percent / 100);
+            return Salario + total;
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + $" Sálário: {Salario}";
         }
 
     }

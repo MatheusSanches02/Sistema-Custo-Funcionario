@@ -29,11 +29,17 @@ namespace Fiap.SistemaCustoFuncionario.UI.Models
         {
             return 0;
         }
+        public abstract decimal AumentoSalario(decimal aumento);
+
+        public override string ToString()
+        {
+            return $"Tipo: {Tipo}, Codigo Registro: {CodigoRegistro}, Nome: {Nome}, Genero: {Genero}";
+        }
 
     }
 
     public enum TipoFuncionario
     {
-        Ativo, inativo
+        Ativo, Inativo
     }
 }
