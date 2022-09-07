@@ -49,7 +49,14 @@ foreach (var clt in funcionariosClt)
     {
         Console.WriteLine("Informe o percentual para aumento: ");
         decimal percent = Convert.ToDecimal(Console.ReadLine());
-        Console.WriteLine(clt.AumentoSalario(percent));
+        if (percent > 0)
+        {
+            Console.WriteLine(clt.AumentoSalario(percent));
+        }
+        else
+        {
+            Console.WriteLine("Valor invalido de percentual");
+        }
         break;
     }
     else
@@ -67,7 +74,14 @@ foreach (var funcPj in funcionariosPj)
     {
         Console.WriteLine("Informe o valor para aumento: ");
         decimal aumento = Convert.ToDecimal(Console.ReadLine());
-        Console.WriteLine(funcPj.AumentoSalario(aumento));
+        if(aumento > 0)
+        {
+            Console.WriteLine(funcPj.AumentoSalario(aumento));
+        }
+        else
+        {
+            Console.WriteLine("Valor invalido para aumento");
+        }
         break;
     }
     else
