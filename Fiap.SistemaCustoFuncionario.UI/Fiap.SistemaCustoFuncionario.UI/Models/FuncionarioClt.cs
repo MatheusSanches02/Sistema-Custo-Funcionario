@@ -26,19 +26,15 @@ namespace Fiap.SistemaCustoFuncionario.UI.Models
             CargoConfiança = cargoConfiança;
         }
 
-        //public override decimal CustoMensal(decimal ferias, decimal decimoTerceiro, decimal fgts, decimal provisaoMulta, decimal previdenciario)
-        //{
-        //    decimal percFerias = ferias * (11.11 / 100);
-        //    decimal percDecimoTerceiro = decimoTerceiro * (8.33 / 100);
-        //    decimal percFgts = fgts * (8 / 100);
-        //    decimal fgtsMulta = (fgts / provisaoMulta) * (4 / 100);
-        //    decimal percPrevidenciario = previdenciario * (7.93 / 100);
-        //    return Salario + percFerias + percDecimoTerceiro + percFgts + percFgts + percFgts;
-        //}
-
-        public override decimal CustoMensal()
+        public decimal CustoMensal(double ferias, double decimoTerceiro, double fgts, double provisaoMulta, double previdenciario)
         {
-            throw new NotImplementedException();
+            decimal percFerias = (decimal)(ferias * (11.11 / 100));
+            decimal percDecimoTerceiro = (decimal)(decimoTerceiro * (8.33 / 100));
+            decimal percFgts = (decimal)(fgts * (8 / 100));
+            decimal fgtsMulta = (decimal)((fgts / provisaoMulta) * (4 / 100));
+            decimal percPrevidenciario = (decimal)(previdenciario * (7.93 / 100));
+            return Salario + percFerias + percDecimoTerceiro + percFgts + percFgts + percFgts;
         }
+
     }
 }

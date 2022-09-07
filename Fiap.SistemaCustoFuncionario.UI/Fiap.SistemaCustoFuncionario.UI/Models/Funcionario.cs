@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fiap.SistemaCustoFuncionario.UI.Models
 {
-    internal abstract class Funcionario : IFuncionario
+    internal abstract class Funcionario
     {
         public TipoFuncionario Tipo { get; set; }
         public int CodigoRegistro { get; set; }
@@ -25,16 +25,15 @@ namespace Fiap.SistemaCustoFuncionario.UI.Models
             Genero = genero;
         }
 
-        public abstract decimal CustoMensal();
-
-        public decimal CustoMensal(decimal ferias, decimal decimoTerceiro, decimal fgts, decimal provisaoMulta, decimal previdenciario)
+        public virtual decimal CustoMensal()
         {
-            throw new NotImplementedException();
+            return 0;
         }
+
     }
 
     public enum TipoFuncionario
     {
-        Clt, Pj
+        Ativo, inativo
     }
 }
